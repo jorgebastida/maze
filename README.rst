@@ -24,8 +24,10 @@ Features
   * Time spent.
 
 * Multiplayer mode over the network.
+
   * Challenge your friends over the network!
   * Discover how log it took you.
+
 * Sound!! ~ Kind of ;)
 * Multi platform... *ish.
 * In color!
