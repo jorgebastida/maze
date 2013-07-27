@@ -232,9 +232,12 @@ class Game(object):
                     curses.beep()
                     text = " You Win! ({0} sec.) ".format(self.total_time)
                     self.screen.addstr(max([0, self.maze.height / 2]) * CELL_HEIGHT, max([0, max([0, self.maze.width / 2]) * CELL_WIDTH - (len(text) / 2), 0]), text, curses.color_pair(1))
+                    self.screen.refresh()
                     if self.client:
                         self.client.send("loser loser")
                         raise MazeWin(self.total_time)
+                    else:
+                        break
 
     def move_player(self, number, direction):
         player = self.players[number]
