@@ -18,12 +18,16 @@ Features
 * Create mazes with arbitrary width and height.
 * Random start and end positions.
 * Single Player mode.
+
   * With progressive difficulty.
   * Number of moves.
   * Time spent.
+  
 * Multiplayer mode over the network.
+
   * Challenge your friends over the network!
   * Discover how log it took you.
+  
 * Sound!! ~ Kind of ;)
 * Multi platform... *ish.
 * In color!
