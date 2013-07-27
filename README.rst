@@ -18,9 +18,11 @@ Features
 * Create mazes with arbitrary width and height.
 * Random start and end positions.
 * Single Player mode.
+
   * With progressive difficulty.
   * Number of moves.
   * Time spent.
+
 * Multiplayer mode over the network.
   * Challenge your friends over the network!
   * Discover how log it took you.
@@ -61,3 +63,9 @@ Help
                             Server port
       --connect SERVER_ADDRESS
                             Server host:port
+
+
+ScreenShot
+-----------
+
+.. image:: https://github.com/jorgebastida/maze/raw/master/screenshot.png
