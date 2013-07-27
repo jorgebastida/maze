@@ -93,6 +93,6 @@ Known bugs
 -----------
 
 * If you want to create big mazes, be sure that your terminal is big enough, or the program will raise an error.
-* Sometimes the server exit abnormaly.
+* Sometimes the server exit abnormaly if you lose.
 * Pulsation scores are not yet implemented on multiplayer.
 
